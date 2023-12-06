@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: digital;
+  src: url(../font/digital-7.ttf);
+}
+div.wrapper {
+  align-items: center;
+  background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+  display: flex;
+  
+  height: 100vh;
+  justify-content: center;
+}
+div.wrapper>div{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(50% - 300px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    padding: 35px;
+    font-family: digital;
+}
+
+div.wrapper>div>div{
+    text-align: center;
+    margin: 30px 0;
+}
+div.wrapper>div>div>button{
+    width: 65px;
+    height: 65px;
+    font-family: inherit;
+    border-radius: 16px;
+    border: unset;
+    font-size: 24px;
+    background-color: #d72880;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+    cursor: pointer;
+}
+div.wrapper>div>div>button:hover{
+  background-color: whitesmoke;
+}
+div.wrapper>div>div>input{
+    width: 300px;
+    font-size: 28px;
+    padding: 20px;
+    text-align: right;
+    color: #232323;
+    font-family: digital;
+    border-radius: 16px;
+    border: unset;
+    outline: none;
+}
+div.wrapper>div>div:nth-of-type(1)>input{
+    width: 150px;
+    margin: 0 3px;
+}
+h1{
+    width: 300px;
+    height: 65px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 16px;
+    font-size: 28px;
+}
